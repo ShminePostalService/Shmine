@@ -1,12 +1,12 @@
 @font-face {
   font-family: EweMn-Regular; /* set name */
-  src: url(EweMn-Regular.otf); /* url of the font */
+  src: url(EweMnLg-Regular.otf); /* url of the font */
 }
-.ps {font-family: EweMnLg-Regular;
+.ps {font-family: EweMn-Regular;
 	}
 	
 .psb {
-	font-family: EweMnLg-Regular;
+	font-family: EweMn-Regular;
   font-weight: bold;
 }
 
