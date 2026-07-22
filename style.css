@@ -2,11 +2,13 @@
   font-family: EweMn-Regular; /* set name */
   src: url(EweMn-Regular.otf); /* url of the font */
 }
-.ps {font-family: EweMn-Regular}
+.ps {font-family: EweMn-Regular;
+	font-size: 200%}
 	
 .psb {
 	font-family: EweMn-Regular;
   font-weight: bold;
+	ont-size: 200%
 }
 
 .div {
