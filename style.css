@@ -1,6 +1,6 @@
 @font-face {
   font-family: EweMn-Regular; /* set name */
-  src: url(/EweMn-Regular.otf); /* url of the font */
+  src: url(EweMn-Regular.otf); /* url of the font */
 }
 .ps {font-family: EweMn-Regular}
 	
