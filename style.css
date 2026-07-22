@@ -3,9 +3,7 @@
   src: url(/EweMn-Regular.otf); /* url of the font */
 }
 
-p {
-  font-family: myFont; /* use font */
-}
+
 @font-face {
   font-family: EweMn-Regular;
   src: url(/EweMn-Regular.otf);
