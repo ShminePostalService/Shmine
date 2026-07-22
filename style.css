@@ -3,12 +3,12 @@
   src: url(EweMn-Regular.otf); /* url of the font */
 }
 .ps {font-family: EweMn-Regular;
-	font-size: 200%}
+	font-size: 2em}
 	
 .psb {
 	font-family: EweMn-Regular;
   font-weight: bold;
-	ont-size: 200%
+	ont-size: 2em
 }
 
 .div {
