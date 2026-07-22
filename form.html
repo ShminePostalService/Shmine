@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="https://sheetdb.io/handlebars.js"></script>
+  <title>Shmine.com | Form</title>
+  <link rel="icon" href="sh fl.jpg">
+  <link rel="stylesheet" href="style.css">
+  <div>
+  <img src="topborder2.png" style="height:70px;width:100%;object-fit: none;">
+  </div>
+
+</head>
+
+<body>
+
+  <div class="maindiv">
+<img src="flag.png" style="
+display: block;
+	position: relative;
+margin-left: 35%;
+height:130px;
+width:180px">
+<h1>word submission</h1>
+<p style="text-align:center">dis site iz cuwwentwy being upgwaded. </p>
+
+<p style="text-align:center">to vizit da owd site, cwick <a href="https://shmine.yolasite.com/"> hewe. </a> </p>
+
+<br>
+
+</div>
+
+
+
+<div class="headerdiv">
+  <h2 style="text-align:center">Language:</h2>
+</div>
+<div>
+  <p><h1><img src="sh fl.jpg" style="width:20%;height:20%"></h1></p>
+</div>
+
+<!-- This is the update template!!!
+<div class="updatediv">
+  <article>
+  <h4><sup> Date </sup></h4>
+<p>
+<b><i>*SKRAAAAAAW!!!*</i></b><br><br>
+  </p>
+  </article>
+-->
+<div class="updatediv">
+  <article>
+  <h4><sup> Submit Word </sup></h4>
+<form
+  method="post"
+  action="https://sheetdb.io/api/v1/7n0gm1fku2nz9">
+    Word: <input name="data[word]">
+    Meaning: <input name="data[meaning]">
+    Substrate: <input name="data[substrate]">
+    Part of Speech: <input name="data[substrate]">
+
+    <button type="submit">Submit</button>
+</form>
+    <script>
+  var form = document.getElementById('sheetdb-form');
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    fetch(form.action, {
+        method : "POST",
+        body: new FormData(document.getElementById("sheetdb-form")),
+    }).then(
+        response => response.json()
+    ).then((html) => {
+      // you can put any JS code here
+      alert('success')
+    });
+  });
+</script>
+  </article>
+
+
+
+
+<!-- Navigation -->
+  <div class="div">
+  <h3 style="text-align:left; margin-left:20px;">Navigate: </h3>
+    <ul class="ul">
+    <a href="index.html">
+      <li>Home </li></a>
+    <a href="news.html">
+      <li>News </li></a>
+    <a href="gallery.html">
+        <li>Gallery </li></a>
+    <a href="about.html">
+        <li>About </li></a>
+    <a href="contact.html">
+        <li>Contact </li></a>
+
+        </ul>
+  <h3 style="text-align:left; margin-left:20px;">Lore: </h3>
+    <ul class="ul">
+      <a href="origin.html">
+          <li>Origin</li></a>
+      <a href="games.html">
+          <li>Games</li></a>
+      <a href="language.html">
+          <li>Language</li></a>
+        </ul>
+</html>
