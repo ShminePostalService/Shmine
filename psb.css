@@ -10,4 +10,7 @@
   font-weight: bold;
 }
 
-.ruby {ruby-align: start;}
+.ruby {ruby-align: start;
+  top: -20px;
+  
+}
