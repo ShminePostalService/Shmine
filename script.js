@@ -12,6 +12,7 @@ const Keyboard = {
 		capsLock: false,
 		keyboardInputs: null,
 		keyLayout: [
+			"done",
 			"1",
 			"2",
 			"3",
@@ -24,6 +25,7 @@ const Keyboard = {
 			"0",
 			"backspace",
 			
+			
 "p",
 "pʷ",
 "b",
@@ -32,6 +34,8 @@ const Keyboard = {
 "v",
 "ʙ",
 "m",
+			",",
+			"enter",
 			// "caps", //
 "t",
 "tʷ",
@@ -42,8 +46,8 @@ const Keyboard = {
 "z",
 "ʒ",
 "n",
-			"enter",
-			"done",
+			".",
+			
 "k",
 "kʷ",
 "g",
@@ -53,19 +57,65 @@ const Keyboard = {
 "ɣ",
 "ǯ",
 "ŋ",
-			",",
-			".",
+			
+			
 			"?",
-"i",
-"ɪ",
-"ə",
-"u",
+"í",
+"ī",
+"ì",
+"ɪ́",
+"ɪ̄",
+"ɪ̀",
+"ə́",
+"ə̄",
+"ə̀",
+"ú",
+"ū",
+"ù",
 "y",
-"e",
-"æ",
-"a",
-"o",
+			
+"é",
+"ē",
+"è",
+"ǽ",
+"ǣ",
+"æ̀",
+"á",
+"ā",
+"à",
+"ó",
+"ō",
+"ò",
 "w",
+			
+"í̃",
+"ī̃",
+"ì̃",
+"ɪ́̃",
+"ɪ̄̃",
+"ɪ̀̃",
+"ə́̃",
+"ə̄̃",
+"ə̀̃",
+"ú̃",
+"ū̃",
+"ù̃",
+"̥",
+			
+"é̃",
+"ē̃",
+"è̃",
+"ǽ̃",
+"ǣ̃",
+"æ̀̃",
+"á̃",
+"ā̃",
+"à̃",
+"ó̃",
+"ō̃",
+"ò̃",
+"̼",
+
 			"space",
 		],
 	},
@@ -140,7 +190,7 @@ const Keyboard = {
 
 		this.properties.keyLayout.forEach((key) => {
 			const insertLineBreak =
-				["backspace", "p", "enter", "?"].indexOf(key) !== -1;
+				["backspace", "enter", ".", "?", "y", "w", "̥", "̼",].indexOf(key) !== -1;
 
 			switch (key) {
 				case "backspace":
