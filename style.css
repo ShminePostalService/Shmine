@@ -1,3 +1,24 @@
+table td, table th {
+                font-size: 24px;
+                line-height: 1.4;
+                padding: 1px 20px;
+                border-bottom: 1px solid #ddd;
+                }
+                tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+
+
+
+
+
+
+
 @font-face {
   font-family: EweMn; /* set name */
   src: url(EweMnLg-Regular.otf); /* url of the font */
