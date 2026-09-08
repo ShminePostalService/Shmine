@@ -1,8 +1,8 @@
 .topborder {
-	height:200px;
+	height:70px;
 	width:100%;
 	object-fit: none;
-background-image: url("animation/2fpsbg.GIF");
+background-image: url("animation/2fps.GIF");
   background-repeat: repeat-x;
 }
 
