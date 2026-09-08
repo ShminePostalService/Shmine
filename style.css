@@ -1,4 +1,7 @@
 .topborder {
+	height:200px;
+	width:100%;
+	object-fit: none;
 background-image: url("animation/2fpsbg.GIF");
   background-repeat: repeat-x;
 }
