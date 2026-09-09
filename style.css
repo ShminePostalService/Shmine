@@ -5,6 +5,7 @@
 background-image: url("animation/2fps.GIF");
   background-repeat: repeat-x;
 	z-index:0;
+	object-position:-10px,-10px;
 }
 
 
