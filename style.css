@@ -30,7 +30,6 @@ th:nth-child(even),td:nth-child(even) {
 .image-container {
 position: absolute; 
 bottom: 0;
-right:0;
   width: 200px;
   height: 300px;
   border: 1px solid black;
