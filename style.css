@@ -1,13 +1,13 @@
 .topborder {
 	height:70px;
-	width:110%;
+	width:100%;
 	margin-left: auto;
 margin-right: auto;
 	
 background-image: url("animation/2fps.GIF");
   background-repeat: repeat-x;
 	z-index:0;
-	object-position:-10px,-10px;
+	object-position:0px,0px;
 }
 
 
