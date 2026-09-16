@@ -35,7 +35,7 @@ th:nth-child(even),td:nth-child(even) {
   display: flex;
   justify-content: center;
   align-items: center;
-	margin-left:-10px;
+	margin-left:-1%;
 }
 
 
