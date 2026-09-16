@@ -38,6 +38,13 @@ th:nth-child(even),td:nth-child(even) {
 	z-index:10;
 }
 
+.foot {
+	position: absolute; 
+	right:0; 
+	bottom: 0; 
+	display:block;
+}
+
 .image-container {
 position: absolute; 
 bottom: 0;
