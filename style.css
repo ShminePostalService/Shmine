@@ -1,7 +1,7 @@
 .topborder {
 	height:70px;
 	width:100%;
-	margin-left: 35%;
+	margin-left: auto;
 margin-right: auto;
 	
 background-image: url("animation/2fps.GIF");
@@ -32,8 +32,8 @@ th:nth-child(even),td:nth-child(even) {
   justify-content: center;
   align-items: center;
 	*/
-	margin-left: 45%;
-	margin-right: 65%
+	margin-left: auto;
+	margin-right: 65;
 }
 .centerer {
   display: flex;
