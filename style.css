@@ -1,7 +1,7 @@
 .topborder {
 	height:70px;
 	width:100%;
-	margin-left: 40;
+	margin-left: 35%;
 margin-right: auto;
 	
 background-image: url("animation/2fps.GIF");
@@ -54,8 +54,7 @@ th:nth-child(even),td:nth-child(even) {
 	right:0; 
 	bottom: 0; 
 	display:block;
-	height:348px;
-	padding:200px;
+	padding:50px;
 }
 
 .image-container {
