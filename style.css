@@ -55,6 +55,7 @@ th:nth-child(even),td:nth-child(even) {
 	bottom: 0; 
 	display:block;
 	height:348px;
+	padding:200px;
 }
 
 .image-container {
