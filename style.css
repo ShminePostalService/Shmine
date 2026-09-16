@@ -45,6 +45,10 @@ th:nth-child(even),td:nth-child(even) {
 	margin-left: 35%;
 }
 
+.spacerr {
+	display:block;
+	height:400px;
+}
 .foot {
 	position: absolute; 
 	right:0; 
