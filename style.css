@@ -30,6 +30,7 @@ th:nth-child(even),td:nth-child(even) {
   display: flex;
   justify-content: center;
   align-items: center;
+	margin-left: 35%;
 }
 .centerer {
   display: flex;
@@ -38,6 +39,7 @@ th:nth-child(even),td:nth-child(even) {
 	z-index:10;
 	position:absolute;
 	top:0;
+	margin-left: 35%;
 }
 
 .foot {
