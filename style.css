@@ -32,19 +32,11 @@ th:nth-child(even),td:nth-child(even) {
   align-items: center;
 }
 .center img {margin-left: -20px;}
-.centerer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-	z-index:10;
-	position:absolute;
-	top:0;
-	margin-left: 35%;
-}
+
 
 .spacerr {
 	display:block;
-	height:400px;
+	height:350px;
 }
 .foot {
 	position: absolute; 
