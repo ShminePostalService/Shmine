@@ -30,8 +30,8 @@ th:nth-child(even),td:nth-child(even) {
   display: flex;
   justify-content: center;
   align-items: center;
-	
 }
+.center img {margin-left: -20px;}
 .centerer {
   display: flex;
   justify-content: center;
