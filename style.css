@@ -28,12 +28,9 @@ th:nth-child(even),td:nth-child(even) {
 
 .center {
   display: flex;
-	/*
   justify-content: center;
   align-items: center;
-	*/
-	margin-left: auto;
-	margin-right: 65;
+	
 }
 .centerer {
   display: flex;
