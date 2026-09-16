@@ -43,7 +43,7 @@ th:nth-child(even),td:nth-child(even) {
 }
 
 .foot {
-	position: absolute; 
+	position: relative; 
 	right:0; 
 	bottom: 0; 
 	display:block;
