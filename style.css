@@ -31,7 +31,12 @@ th:nth-child(even),td:nth-child(even) {
   justify-content: center;
   align-items: center;
 }
-.center img {margin-left: -20px;}
+.centerimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	margin-left:-20px;
+}
 
 
 .spacerr {
