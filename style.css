@@ -43,10 +43,11 @@ th:nth-child(even),td:nth-child(even) {
 }
 
 .foot {
-	position: relative; 
+	position: absolute; 
 	right:0; 
 	bottom: 0; 
 	display:block;
+	height:400px;
 }
 
 .image-container {
