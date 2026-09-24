@@ -460,8 +460,8 @@ margin : auto;
 
 .text-area {
 	padding: 100px;
-	width: calc(80vw - 100px);
-	height: calc(40vh - 800px);
+	width: calc(80vw - 10px);
+	height: calc(40vh - 400px);
 }
 
 .keyboard {
