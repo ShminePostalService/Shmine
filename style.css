@@ -459,28 +459,28 @@ margin : auto;
 
 /* Image Zoom */
 
-input[type=checkbox] {
-  display: none;
+.click-zoom input[type=checkbox] {
+  display: none
 }
 
-.checkbox img {
+.click-zoom img {
   margin: 100px;
   transition: transform 0.25s ease;
-  cursor: zoom-in;
+  cursor: zoom-in
 }
 
-input[type=checkbox]:checked ~ label > img {
-  transform: scale(3);
-  cursor: zoom-out;
+.click-zoom input[type=checkbox]:checked~img {
+  transform: scale(2);
+  cursor: zoom-out
 }
 
 /* Stuff for virtual keyboard */
 
 .text-area {
 	padding: 100px;
-	width: calc(90vw - 10px);
+	width: calc(100vw - 20px);
 	height: calc(80vh - 200px);
-	font-size:48px;
+	font-size:60px;
 }
 
 .keyboard {
