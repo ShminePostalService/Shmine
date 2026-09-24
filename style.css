@@ -459,16 +459,16 @@ margin : auto;
 /* Stuff for virtual keyboard */
 
 .text-area {
-	padding: 5px;
-	width: calc(80vw - 30px);
-	height: calc(40vh - 295px);
+	padding: 100px;
+	width: calc(80vw - 100px);
+	height: calc(40vh - 800px);
 }
 
 .keyboard {
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	width: 100%;
+	width: 90%;
 	padding: 5px 0;
 	background: #004134;
 	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
@@ -476,7 +476,7 @@ margin : auto;
 }
 
 .keyboard--hidden {
-	bottom: -100%;
+	bottom: -90%;
 }
 
 .keyboard__keys {
