@@ -470,7 +470,7 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:checked ~ label > img {
-  transform: scale(2);
+  transform: scale(3);
   cursor: zoom-out;
 }
 
@@ -478,8 +478,9 @@ input[type=checkbox]:checked ~ label > img {
 
 .text-area {
 	padding: 100px;
-	width: calc(100vw - 10px);
+	width: calc(90vw - 10px);
 	height: calc(80vh - 200px);
+	font-size:48px;
 }
 
 .keyboard {
