@@ -1,3 +1,4 @@
+<script>
 function imageZoom(imgID, resultID) {
   var img, lens, result, cx, cy;
   img = document.getElementById(imgID);
@@ -53,3 +54,4 @@ function imageZoom(imgID, resultID) {
     return {x : x, y : y};
   }
 }
+  </script>
